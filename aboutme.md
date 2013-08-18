@@ -1,0 +1,12 @@
+---
+layout: page
+title: "About me"
+description: ""
+group: navigation
+---
+{% include JB/setup %}
+
+##Me
+I am Jinesh, a Research Scholar in Cyber Security. I work at Amrita University. Living in Kerala, India. Interested in doing something new. I love my family and friends
+	
+
