@@ -1,29 +1,60 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
-<channel>
-        <title>Binary thoughts</title>
-        <description>Binary thoughts - Jinesh M.K</description>
-        <link>http://jineshmk.github.io</link>
-        <link>http://jineshmk.github.io</link>
-        <lastBuildDate>2013-08-18T17:29:17+05:30</lastBuildDate>
-        <pubDate>2013-08-18T17:29:17+05:30</pubDate>
-        <ttl>1800</ttl>
+<?xml version="1.0"?>
+	<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+		<channel>
+			<title>Jinesh M.K</title>
+			<link></link>
+			<description>Jinesh Blog</description>
+			<language>en-us</language>
+			<pubDate>Tue, 20 Aug 2013 22:02:34 IST</pubDate>
+			<lastBuildDate>Tue, 20 Aug 2013 22:02:34 IST</lastBuildDate>
+			<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+			<generator>http://github.com/thedereck/gh-pages-blog</generator>
+			<atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
 
+			
 
-        <item>
-                <title>MQTT Java Publisher and Subscriber using Eclipse Paho</title>
-                <description>&lt;p&gt;MQTT is a one of most popular machine-to-machine (M2M) connectivity protocol. It was designed with extremely lightweight that support embedded and low power processing device. MQTT popularly used in samrtphone chat application and sensor communication. You can find more information about MQTT from here. MQTT is broker based message queuing system. It is very to install open Source MQTT server like Mosquitto using a simple apt-get or yum command.&lt;/p&gt;
+			
+				<webMaster>mkjinesh@gmail.com (Jinesh)</webMaster>
+			
 
-&lt;pre&gt;&lt;code&gt;sudo apt-get install mosquitto&lt;/code&gt;&lt;/pre&gt;
+			
+				<ttl>300</ttl>
+			
 
-&lt;p&gt;Eclipse Paho is one mqtt client work well with mosquitto. The below MQTT subscriber and publisher code based on java eclipse paho library 1.0.1. You can also use public mosquitto server in &lt;a href='http://test.mosquitto.org/'&gt;test.mosquitto.org&lt;/a&gt;&lt;/p&gt;
+			
+				<image>
+					<link></link>
+					<title>Jinesh M.K</title>
+					<url>https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-prn2/q77/s720x720/1069882_10200136172271053_2007163914_n.jpg?s=200</url>
+				</image>
+			
 
-&lt;p&gt;Checkout the complete source for MQTT subscriber and publisher from &lt;a href='https://bitbucket.org/mkjinesh/mqttclient'&gt;here&lt;/a&gt;&lt;/p&gt;</description>
-                <link>http://jineshmk.github.io/2013/08/18/mqtt-java-publisher-and-subscriber-using-eclipse-paho</link>
-                <guid>http://jineshmk.github.io/2013/08/18/mqtt-java-publisher-and-subscriber-using-eclipse-paho</guid>
-                <pubDate>2013-08-18T00:00:00+05:30</pubDate>
-        </item>
+			
+				<item>
+					
+						<title>MQTT Java Publisher and Subscriber using Eclipse Paho</title>
+					
+					<link>/mqtt/2013/08/18/mqtt-java-publisher-and-subscriber-using-eclipse-paho.html</link>
 
+					
 
-</channel>
-</rss>
+					<pubDate>Sun, 18 Aug 2013 00:00:00 IST</pubDate>
+					<guid>/mqtt/2013/08/18/mqtt-java-publisher-and-subscriber-using-eclipse-paho</guid>
+
+					
+						<category><![CDATA[ mqtt ]]></category>
+					
+
+					<description><![CDATA[  ]]></description>
+					<content:encoded><![CDATA[ <h4></h4><p>MQTT is a one of most popular machine-to-machine (M2M) connectivity protocol. It was designed with extremely lightweight that support embedded and low power processing device. MQTT popularly used in samrtphone chat application and sensor communication. You can find more information about MQTT from here. MQTT is broker based message queuing system. It is very to install open Source MQTT server like Mosquitto using a simple apt-get or yum command.</p>
+
+<pre><code>sudo apt-get install mosquitto</code></pre>
+
+<p>Eclipse Paho is one mqtt client work well with mosquitto. The below MQTT subscriber and publisher code based on java eclipse paho library 1.0.1. You can also use public mosquitto server in <a href='http://test.mosquitto.org/'>test.mosquitto.org</a></p>
+
+<p>Checkout the complete source for MQTT subscriber and publisher from <a href='https://bitbucket.org/mkjinesh/mqttclient'>here</a></p> ]]></content:encoded>
+				</item>
+			
+
+		</channel>
+	</rss>
