@@ -169,7 +169,7 @@ sections:
     enabled : true
     image :
       enabled : true
-      url : img/jinesh.jpg?s=200
+      url : http://jineshmk.github.io/img/jinesh.jpg?s=200
     content :
       enabled : true
     social_links :
@@ -518,7 +518,7 @@ rss :
     ttl : 300
   image :
     enabled : true
-    image :  img/jinesh.jpg?s=200
+    image :  http://jineshmk.github.io/img/jinesh.jpg?s=200
 
 
 # This determines whether Disqus is enabled or disabled for the comments
