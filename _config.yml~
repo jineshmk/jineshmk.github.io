@@ -24,8 +24,8 @@
 # email : thedereck@thedereck.com
 # author : Dereck Curry
 name : Jinesh M.K
-brand : Binary Thoughts 
-description : Jinesh Blog
+brand : Jinesh's Blog
+description : Binary Thoughts 
 #url : http://thedereck.github.com
 email : mkjinesh@gmail.com
 author: Jinesh M.K
@@ -254,7 +254,7 @@ navbar :
 #       font_awesome_icon : icon-facebook
 #       url : false
 #     - link :
-#       enabled : true
+#       enabled : false
 #       name : GitHub
 #       font_awesome_icon : icon-github-alt
 #       url : https://github.com/jineshmk
@@ -287,7 +287,7 @@ social_links :
       font_awesome_icon : icon-facebook
       url : https://www.facebook.com/jinesh.mk
     - link :
-      enabled : true
+      enabled : false
       name : GitHub
       font_awesome_icon : icon-github-alt
       url : https://github.com/jineshmk
@@ -367,11 +367,11 @@ external_links :
   header : Links
   links :
     - link :
-      name : Blogger
+      name : Binary Thoughts 
       url : http://jinutechworld.blogspot.com
-  #  - link :
-   #   name : Lowcountry Blues Club
-    #  url : http://lowcountrybluesclub.blogspot.com/
+    - link :
+      name : BitBucket
+      url : https://bitbucket.org/mkjinesh/
    # - link :
     #  name : Code Camp Charleston
     #  url : http://www.chscodecamp.com/
@@ -565,4 +565,4 @@ analytics :
   enabled : true
   google_analytics :
     enabled : true
-    tracking_id : UA-7954274-5
+    tracking_id : UA-18357171-2
