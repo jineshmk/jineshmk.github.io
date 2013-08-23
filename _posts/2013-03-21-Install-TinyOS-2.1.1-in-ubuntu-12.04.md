@@ -31,8 +31,8 @@ The following configurations are done for tiny os  2.1.1 for micaz mote
 Go to /opt/tinyos-2.1.1/support/sdk/java 
 
     make
-    make install  
-    make javadoc  
+    make install
+    make javadoc
 ###Common Errors
 ####Unexpected operator during tos-jni-install command
 ####Error
