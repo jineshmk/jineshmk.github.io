@@ -5,8 +5,8 @@
 			<link></link>
 			<description>Binary Thoughts</description>
 			<language>en-us</language>
-			<pubDate>Fri, 23 Aug 2013 07:47:16 IST</pubDate>
-			<lastBuildDate>Fri, 23 Aug 2013 07:47:16 IST</lastBuildDate>
+			<pubDate>Fri, 23 Aug 2013 18:06:32 IST</pubDate>
+			<lastBuildDate>Fri, 23 Aug 2013 18:06:32 IST</lastBuildDate>
 			<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 			<generator>http://github.com/thedereck/gh-pages-blog</generator>
 			<atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
@@ -102,7 +102,11 @@ source /opt/tinyos-2.1.1/tinyos.sh  </code></pre>
 
 <h3 id='install_java_docs'>Install Java docs</h3>
 
-<p>Go to /opt/tinyos-2.1.1/support/sdk/java make<br /> make install<br /> make javadoc</p>
+<p>Go to /opt/tinyos-2.1.1/support/sdk/java</p>
+
+<pre><code>make
+make install  
+make javadoc  </code></pre>
 
 <h3 id='common_errors'>Common Errors</h3>
 
