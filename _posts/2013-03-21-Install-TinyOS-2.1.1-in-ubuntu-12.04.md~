@@ -32,6 +32,19 @@ Go to /opt/tinyos-2.1.1/support/sdk/java
     make  
     make install  
     make javadoc  
+###Common Errors
+####Unexpected operator during tos-jni-install command
+####Error
+    sudo tos-install-jni   
+    [: 31: =: unexpected operator   
+  
+    Installing 32-bit Java JNI code in /usr/lib/jvm/java-1.5.0-sun/jre/lib/i386 …  
+  
+    done.  
+####Solution
+Edit /usr/bin/tos-install-jni and change 1st line from “#!/bin/sh” to “#!/bin/bash”
+
+
 
 
 

@@ -29,7 +29,8 @@ The following configurations are done for tiny os  2.1.1 for micaz mote
     sudo tos-install-jni
 ###Install Java docs 
 Go to /opt/tinyos-2.1.1/support/sdk/java 
-    make  
+
+    make
     make install  
     make javadoc  
 ###Common Errors
