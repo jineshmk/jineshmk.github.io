@@ -5,8 +5,8 @@
 			<link></link>
 			<description>Binary Thoughts</description>
 			<language>en-us</language>
-			<pubDate>Fri, 23 Aug 2013 18:10:00 IST</pubDate>
-			<lastBuildDate>Fri, 23 Aug 2013 18:10:00 IST</lastBuildDate>
+			<pubDate>Fri, 23 Aug 2013 18:11:23 IST</pubDate>
+			<lastBuildDate>Fri, 23 Aug 2013 18:11:23 IST</lastBuildDate>
 			<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 			<generator>http://github.com/thedereck/gh-pages-blog</generator>
 			<atom:link href="/rss.xml" rel="self" type="application/rss+xml" />
@@ -82,6 +82,7 @@
 <h3 id='update_aptget_and_install_tinyos'>Update apt-get and install tinyos</h3>
 
 <pre><code>sudo apt-get update
+
 sudo apt-get install tinyos-2.1.1</code></pre>
 
 <h3 id='change_the_ownership_of_tinyos_root_directory_to_your_user'>Change the ownership of tinyos root directory to your user</h3>
@@ -92,8 +93,11 @@ sudo apt-get install tinyos-2.1.1</code></pre>
 
 <pre><code>export TOSDIR=$TOSROOT/tos  
 export CLASSPATH=$TOSROOT/support/sdk/java/tinyos.jar:.$CLASSPATH  
+
 export MAKERULES=$TOSROOT/support/make/Makerules  
+
 export PATH=/opt/msp430/bin:$PATH  
+
 source /opt/tinyos-2.1.1/tinyos.sh  </code></pre>
 
 <h3 id='install_the_java_tools_using'>Install the java tools using</h3>
@@ -105,7 +109,9 @@ source /opt/tinyos-2.1.1/tinyos.sh  </code></pre>
 <p>Go to /opt/tinyos-2.1.1/support/sdk/java</p>
 
 <pre><code>make   
+
 make install   
+
 make javadoc   </code></pre>
 
 <h3 id='common_errors'>Common Errors</h3>

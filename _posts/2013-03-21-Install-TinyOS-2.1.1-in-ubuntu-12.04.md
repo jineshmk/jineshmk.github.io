@@ -15,6 +15,7 @@ The following configurations are done for tiny os  2.1.1 for micaz mote
 ###Update apt-get and install tinyos
     
     sudo apt-get update
+    
     sudo apt-get install tinyos-2.1.1
 
 ###Change the ownership of tinyos root directory to your user
@@ -22,8 +23,11 @@ The following configurations are done for tiny os  2.1.1 for micaz mote
 ###Edit .bashrc in user home and add the following lines at the end
     export TOSDIR=$TOSROOT/tos  
     export CLASSPATH=$TOSROOT/support/sdk/java/tinyos.jar:.$CLASSPATH  
+
     export MAKERULES=$TOSROOT/support/make/Makerules  
+
     export PATH=/opt/msp430/bin:$PATH  
+
     source /opt/tinyos-2.1.1/tinyos.sh  
 ###Install the java tools using
     sudo tos-install-jni
@@ -31,7 +35,9 @@ The following configurations are done for tiny os  2.1.1 for micaz mote
 Go to /opt/tinyos-2.1.1/support/sdk/java 
 
     make   
+   
     make install   
+   
     make javadoc   
 ###Common Errors
 ####Unexpected operator during tos-jni-install command
