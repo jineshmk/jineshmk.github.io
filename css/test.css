@@ -13,8 +13,28 @@ body{
   width: 325px;
   height: 50px;
   position: absolute;
-  top: 70%;
-  left: 70%;
+  top: 80%;
+  left: 80%;
+  margin-left: -162px;
+  margin-top: -25px;
+}
+
+.wrapper2{
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  margin-left: -162px;
+  margin-top: -25px;
+}
+
+.wrapper3{
+  width: 300px;
+  height: 125px;
+  position: absolute;
+  top: 80%;
+  left: 30%;
   margin-left: -162px;
   margin-top: -25px;
 }
