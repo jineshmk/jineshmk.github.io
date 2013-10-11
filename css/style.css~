@@ -428,7 +428,7 @@ hr.grey {
 }
 
 /* Contact us block ------------------------------------------ */
-#aboutus .social a{
+#contact .social a{
 	margin-right: 10px;
 	font-size: 30px;
 	float: left;
