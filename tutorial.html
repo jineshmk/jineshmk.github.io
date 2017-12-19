@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Simple Template #3 from simpletemplates.org" />
+<meta name="keywords" content="simple #3, template, simpletemplates.org" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="prism.css" />
+
+
+<title>TCOB</title>
+</head>
+<body>
+
+<div id="wrap">
+
+<div id="header">
+<h1>Temporal Constrained Objects</h1>
+
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="tutorial.html">Tutorial</a></li>
+<li><a href="publications.html">Publications</a></li>
+</ul>
+</div>
+
+<div id="content">
+<h3>How to write TCOB programs?</h3>
+<h3>TCOB Compilation</h3>
+The TCOB compiler builts up on the SWI-prolog implementation. In order to work with the compiler, the system must have a latest SWI-prolog installation. You can download and install SWI-prolog from <a hre= "http://www.swi-prolog.org/download/stable">http://www.swi-prolog.org/download/stable</a> . The user-manual and documentation of SWI-prolog available on  <a hre= "http://www.swi-prolog.org/pldoc/index.htm">http://www.swi-prolog.org/pldoc/index.htm</a>. Compiler contains two files
+
+<ol>
+<li>tcob2swi.pl - TCOB compiler code, which convert TCOB program into CLP program </li>
+<li> helper_clpr.pl - Collection of TCOB built-in predicates </li>
+</ol>
+
+<div class="clear"> </div>
+
+<h4> Step 1</h4>
+<p>
+Download the compiler code from <a href="https://github.com/jineshmk/TCOB/tree/master/Compiler" >Here </a> and move into the two files into your prolog working directory
+</p>
+<p>
+Open swi prolog environment and load the compiler
+</p>
+<pre>
+$swipl
+?- [tcob2swi].
+</pre>
+
+<h4> Step 2</h4>
+<p>
+Compile TCOB using tcob2swi/2 command. It takes the TCOB program and driver class constructor as the input and creates the corresponding CLP program.
+</p>
+<pre>
+?- tcob2swi('test.tcob','test()').
+</pre>
+<p>This predicates create a prolog file with same name as the TCOB program.
+<h4> Step 3</h4>
+<p>
+Load compiled code(prolog file) to prolog environment using standard prolog load command.
+</p>
+<pre>
+?- [test].
+</pre>
+<p>
+Now you can invoke the program using the driver(main) class predicates int the CLP program. It has two arguments, first argument represents the list of attributes in the class and second argument denotes the list of arguments to the constructor. If you are not taking any input values, it can represent by _ character
+</p>
+<pre> 
+?- main(_,_).
+</pre>
+
+  
+  <h3>Debugging</h3>
+<h3>Run-time Analysis</h3>
+  </div>
+</div>
+
+
+
+<div id="footer">
+
+<div class="left">
+Copyright &copy; 2018<a href="#"></a>
+</div>
+
+<div class="right"> 
+<a href="http://amrita.edu"> Amrita Vishwa Vidyapeetham</a>
+<a href="http://www.buffalo.edu"> University At Buffalo</a>
+
+</div>
+
+<div class="clear"> </div>
+
+</div>
+
+</div>
+</body>
+</html>

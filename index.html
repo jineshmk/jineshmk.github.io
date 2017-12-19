@@ -6,92 +6,86 @@
 <meta name="description" content="Simple Template #3 from simpletemplates.org" />
 <meta name="keywords" content="simple #3, template, simpletemplates.org" />
 <link rel="stylesheet" type="text/css" href="style.css" />
-<title>Simple Template #3 - simpletemplates.org</title>
+<title>TCOB</title>
 </head>
 <body>
 <div id="wrap">
 
 <div id="header">
 <h1>Temporal Constrained Objects</h1>
-<h2>A declarative modeling approach to complex system modeling</h2>
 </div>
 
 <div id="menu">
 <ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">News</a></li>
-<li><a href="#">Tutorial</a></li>
-<li><a href="#">Publications</a></li>
-<li><a href="#">The Team</a></li>
-<li><a href="#">Support</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="tutorial.html">Tutorial</a></li>
+<li><a href="publications.html">Publications</a></li>
 </ul>
 </div>
 
 <div id="content">
 
-<h2>TCOB- Temporal Constrained Objects </h2>
+<h2>Constrained Objects </h2>
 
 <p>
-Temporal constrained objects is an extension of the paradigm of constrained objects which provides a principled approach to modeling complex engineering systems based upon two main principles: a compositional specification of the structure of the system, using objects, and a declarative specification of its behavior, using constraints. 
+Constrained objects  have been proposed as a 
+modeling framework for complex systems that consists of an assembly of 
+interconnected, interdependent components with two essential characteristics: 
+(i) They are compositional, i.e., a complex structure is built (recursively) of 
+smaller structures. (ii) Laws or rules regulate the behavior of an individual 
+component by itself and its relation to other components. This programming 
+methodology is applicable in the various system from physical and engineering 
+domains. The constrained objects language utilizes the object-oriented 
+programming concepts such as classes, inheritance, and aggregation for 
+structural modeling and declarative constraints for behavioral modeling. The 
+emergent behavior of a collection of constrained objects is determined by the 
+process of constraint solving over the attributes of objects. <a href="https://www.cse.buffalo.edu/LRG/COB/Papers/Cob-Phd-Thesis.pdf"> Read More </a>
 </p>
+<h2>Temporal Constrained Objects </h2>
 <p>
-A novel feature of temporal constrained objects is the series variable, the sequence of whose values is determined by constraints that include metric temporal operators. The emergent behavior of a dynamic system is determined through a process of time-based simulation and constraint satisfaction at each step. 
+Temporal constrained objects  added a temporal 
+extension to constrained object framework, which facilitates the declarative 
+specification of time-dependent behavior in complex dynamic systems. The 
+language TCOB implements this concept using  series variable, which  
+ record the dynamic changes of the 
+system, and the temporal constraints are placed over the consecutive values of 
+this variable. The language introduces a more general approach to temporal constraints through 
+the introduction of metric temporal operators which are metric variants of the 
+classic F and  G operators of linear temporal logic (LTL) . The execution model for temporal constrained objects 
+language involves a time-based simulation along with constraint solving at each 
+time-step. <a href="https://www.sciencedirect.com/science/article/pii/S1477842416302135"> Read More </a>
 </p>
 
 <div class="clear"> </div>
 
-<h2>Examples</h2>
-<img style="margin: 0 20px 20px 0; float: left; margin: 0 20px 0 0;" src="image.png" alt="image" />
-<p>
-<h4> AC Circuit</h4>
+<h2>TCOB Framework</h2>
+<div class="row">
+  <div class="column">
+  <p>
+<h4> Compiler:</h4> Source-to-source compiler to translate TCOB program into SWI-Prolog code
+<h4> Run-time Analyser:</h4> Tools and techiques to montior the run-time behaviour of TCOB programs
+<h4> Partial Evaluator:</h4> Techniques  to improve the running time of programs
 </p>
 <p>
-Unlike DC circuit in example, the voltage in AC circuits vary with time, typically alternating between positive and negative values according to some pattern. We define the voltage (V) and current (I) in the abstract class component as series variables to model this periodic change. The three types of circuit components (resistor, capacitor, and inductor) each inherit voltage and current from the component class. The constraints in each class define the laws of circuit elements: the inductor class implements Faraday’s law of inductance, i.e., the voltage (V) across an inductor is equal to the inductance (L) multiplied by the rate of change of current (I); similarly the capacitor class implements Ampere’s law of capacitance, i.e., the current (I) through a capacitor is equal to the capacitance (C) multiplied by the rate of change of voltage (V).
-</p>
 
-<img style="margin: 0 20px 20px 0; float: left; margin: 0 20px 0 0;" src="image.png" alt="image" />
-<p>
-<h4> PID Controller</h4>
 </p>
-<p>
-Unlike DC circuit in example, the voltage in AC circuits vary with time, typically alternating between positive and negative values according to some pattern. We define the voltage (V) and current (I) in the abstract class component as series variables to model this periodic change. The three types of circuit components (resistor, capacitor, and inductor) each inherit voltage and current from the component class. The constraints in each class define the laws of circuit elements: the inductor class implements Faraday’s law of inductance, i.e., the voltage (V) across an inductor is equal to the inductance (L) multiplied by the rate of change of current (I); similarly the capacitor class implements Ampere’s law of capacitance, i.e., the current (I) through a capacitor is equal to the capacitance (C) multiplied by the rate of change of voltage (V).
-</p>
-
-<img style="margin: 0 20px 20px 0; float: left; margin: 0 20px 0 0;" src="image.png" alt="image" />
-<p>
-<h4> Traffic Light</h4>
-</p>
-<p>
-Unlike DC circuit in example, the voltage in AC circuits vary with time, typically alternating between positive and negative values according to some pattern. We define the voltage (V) and current (I) in the abstract class component as series variables to model this periodic change. The three types of circuit components (resistor, capacitor, and inductor) each inherit voltage and current from the component class. The constraints in each class define the laws of circuit elements: the inductor class implements Faraday’s law of inductance, i.e., the voltage (V) across an inductor is equal to the inductance (L) multiplied by the rate of change of current (I); similarly the capacitor class implements Ampere’s law of capacitance, i.e., the current (I) through a capacitor is equal to the capacitance (C) multiplied by the rate of change of voltage (V).
-</p>
-
-<h2>Case Studies</h2>
-<img style="margin: 0 20px 20px 0; float: left; margin: 0 20px 0 0;" src="image.png" alt="image" />
-<p>
-<h4> Vehicular System</h4>
-</p>
-<p>
-Unlike DC circuit in example, the voltage in AC circuits vary with time, typically alternating between positive and negative values according to some pattern. We define the voltage (V) and current (I) in the abstract class component as series variables to model this periodic change. The three types of circuit components (resistor, capacitor, and inductor) each inherit voltage and current from the component class. The constraints in each class define the laws of circuit elements: the inductor class implements Faraday’s law of inductance, i.e., the voltage (V) across an inductor is equal to the inductance (L) multiplied by the rate of change of current (I); similarly the capacitor class implements Ampere’s law of capacitance, i.e., the current (I) through a capacitor is equal to the capacitance (C) multiplied by the rate of change of voltage (V).
-</p>
-
-<img style="margin: 0 20px 20px 0; float: left; margin: 0 20px 0 0;" src="image.png" alt="image" />
-<p>
-<h4> Computational Neuroscience</h4>
-</p>
-<p>
-Unlike DC circuit in example, the voltage in AC circuits vary with time, typically alternating between positive and negative values according to some pattern. We define the voltage (V) and current (I) in the abstract class component as series variables to model this periodic change. The three types of circuit components (resistor, capacitor, and inductor) each inherit voltage and current from the component class. The constraints in each class define the laws of circuit elements: the inductor class implements Faraday’s law of inductance, i.e., the voltage (V) across an inductor is equal to the inductance (L) multiplied by the rate of change of current (I); similarly the capacitor class implements Ampere’s law of capacitance, i.e., the current (I) through a capacitor is equal to the capacitance (C) multiplied by the rate of change of voltage (V).
-</p>
+  
+  </div>
+  <div class="column">
+ 
 
 
-
-</ul>
-
+  
+  </div>
 </div>
+
+
+
 
 <div id="footer">
 
 <div class="left">
-Copyright &copy; 2017<a href="#"></a>
+Copyright &copy; 2018<a href="#"></a>
 </div>
 
 <div class="right"> 
